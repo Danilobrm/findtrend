@@ -18,6 +18,6 @@ function openMenu() {
 
 navItem.forEach((item) =>
   item.addEventListener("click", () => {
-    openMenu();
+    item.parentElement.className !== "nav-bar-footer" && openMenu();
   })
 );
