@@ -24,6 +24,7 @@ header {
 }
 
 .logo-icon {
+  z-index: 11;
   width: 40.5px;
   height: 40px;
   background: url("../assets/icon.png");
@@ -102,6 +103,7 @@ header {
 .hamburguer {
   display: none;
   cursor: pointer;
+  z-index: 11;
 }
 
 .bar {
@@ -137,8 +139,12 @@ header {
 /* header mobile */
 @media (max-width: 1000px) {
   header {
-    width: 90.5%;
+    width: 100%;
+    padding: 20px;
+    margin: 0 auto;
+    position: fixed;
     justify-content: space-between;
+    z-index: 11;
   }
   .logo-title {
     display: none;
@@ -146,29 +152,30 @@ header {
   .logo {
     width: fit-content;
   }
-  .nav-header {
+  /* .nav-header {
     display: none;
-  }
+  } */
 
   .nav-bar {
     position: fixed;
-    left: 100%;
-    top: 70px;
+    left: 0;
+    top: -385px;
+    /* top: 0; */
     flex-direction: column;
-    width: 300px;
-    height: fit-content;
-    padding: 20px;
+    width: 100%;
+    height: 385px;
+    padding: 75px;
     transition: 0.3s;
     flex-direction: column;
     align-items: center;
     gap: 40px;
     background-color: #ffffff;
+    z-index: 10;
   }
 
   .nav-default-actions {
     gap: 10px;
     align-items: center;
-
     width: 80%;
     flex-direction: column;
     height: fit-content;
@@ -202,5 +209,13 @@ header {
   }
   .hamburguer.active .bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
+  }
+
+  .nav-bar.active {
+    top: 0;
+  }
+
+  .bar.active {
+    background-color: #000000;
   }
 }

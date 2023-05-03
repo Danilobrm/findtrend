@@ -19,6 +19,7 @@ footer {
   align-self: center;
   align-items: center;
   gap: 18px;
+  z-index: 0;
 }
 
 .logo-title-footer {

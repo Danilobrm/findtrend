@@ -43,6 +43,7 @@
   align-self: center;
   margin: 0 auto;
   cursor: pointer;
+  justify-content: flex-start;
 }
 
 .turn-circle {
@@ -50,7 +51,7 @@
   height: 30px;
   background-color: #a8ff35;
   border-radius: 28px;
-  margin-left: 9px;
+  margin: 0 9px;
 }
 
 .sell-area-title img {
@@ -131,7 +132,7 @@
   width: 139px;
   height: fit-content;
   align-items: flex-end;
-  color: #1E1E1E;
+  color: #1e1e1e;
 }
 
 .item-price h1 span {

@@ -47,7 +47,7 @@
             </span>
           </ul>
         </nav>
-        <div class="hamburguer">
+        <div class="hamburguer" onclick={openMenu()}>
           <span class="bar"></span>
           <span class="bar"></span>
           <span class="bar"></span>
@@ -232,7 +232,7 @@
 
           <div class="sell-area-title">
             <p>Montly</p>
-            <button class="turn-retangle">
+            <button class="turn-retangle" onclick={toggleOption()}>
               <span class="turn-circle"></span>
             </button>
             <p>Yearly</p>
@@ -379,5 +379,7 @@
         </footer>
       </main>
     </div>
+
+    <script src="index.js"></script>
   </body>
 </html>
