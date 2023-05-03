@@ -3,16 +3,17 @@ footer {
   height: 88px;
   flex-direction: row;
   display: flex;
-  align-items: center;
   padding: 0 142.75px;
+  justify-content: center;
+  border: 1px solid red;
 }
 
 .footer-container {
   display: flex;
   width: fit-content;
-  margin: 0 auto;
   gap: 376px;
   align-items: center;
+  border: 1px solid red;
 }
 
 .logo-footer {
@@ -41,14 +42,17 @@ footer {
 @media (max-width: 768px) {
   footer {
     height: 548px;
+    align-items: center;
   }
-
+  
   .footer-container {
     flex-direction: column;
     gap: 63px;
+    align-items: center;
   }
-
+  
   .nav-bar-footer {
+    align-items: center;
     flex-direction: column;
     text-align: center;
   }
