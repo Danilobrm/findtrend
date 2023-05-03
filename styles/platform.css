@@ -1,0 +1,68 @@
+@import url("../assets/WEB/css/clash-display.css");
+
+.all-platform {
+  width: 100%;
+  height: 2291px;
+  background-color: #ffffff;
+}
+
+.all-platform h1 {
+  font-family: "ClashDisplay-Bold";
+  font-size: 64px;
+  width: fit-content;
+  color: #323232;
+  margin: 0 auto;
+  padding-top: 163px;
+  text-align: center;
+}
+
+.platforms-icon ul {
+  width: fit-content;
+  margin: 0 auto;
+  margin-top: 110px;
+  display: flex;
+  flex-direction: row;
+}
+
+.icons {
+  list-style: none;
+  width: 177px;
+  height: 163px;
+}
+
+.twitter-posts {
+  width: fit-content;
+  margin: 0 auto;
+  padding: 138px 0;
+}
+
+@media (max-width: 1200px) {
+  .all-platform {
+    height: 1778px;
+  }
+  
+  .platforms-icon ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .all-platform h1 {
+    font-size: 35px;
+  }
+
+  .platforms-icon ul {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .icons {
+    width: 160px;
+    height: 148px;
+  }
+
+  .twitter-posts img {
+    width: 100%;
+    height: 685px;
+  }
+}

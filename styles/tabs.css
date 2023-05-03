@@ -1,0 +1,137 @@
+@import url("../assets/WEB/css/clash-display.css");
+
+.new-tabs {
+  height: 500px;
+  width: 100%;
+  display: flex;
+  background-color: #a8ff35;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.new-tabs-box {
+  display: flex;
+  flex-direction: row;
+  margin-top: 62px;
+}
+
+.newtabs-title {
+  font-family: "ClashDisplay-Bold";
+  font-size: 66px;
+  text-align: center;
+  color: #181818;
+}
+
+.white-board {
+  min-width: 508.7px;
+  height: 188.49px;
+  background-color: #ffffff;
+  border-radius: 16px;
+  margin: 0 42.65px 0 42.2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tab {
+  position: relative;
+  background: url("../assets/newtabs/tab.png");
+  width: 338.7px;
+  height: 78.49px;
+}
+
+.close-icon {
+  width: 73.22px;
+  height: 75.49px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 0;
+  top: 0;
+
+  background: linear-gradient(
+    268.65deg,
+    #181818 42.82%,
+    rgba(24, 24, 24, 0.8) 92.18%
+  );
+}
+
+.new-tabs-paragraph {
+  font-size: 20px;
+  font-family: "ClashDisplay-Medium";
+  width: 739px;
+  height: 50px;
+  text-align: center;
+  color: #181818;
+  margin-top: 51px;
+}
+
+/* new tab mobile */
+@media (max-width: 768px) {
+  .new-tabs {
+    height: 505px;
+    flex-direction: column;
+    margin-top: -150px;
+  }
+
+  .new-tabs-hero {
+    height: 400px;
+  }
+
+  .newtabs-title {
+    width: 100%;
+    height: 38px;
+    font-size: 31px;
+  }
+
+  .new-tabs-box {
+    flex-direction: column-reverse;
+    position: relative;
+    top: -40px;
+  }
+
+  .discoverarrow {
+    position: relative;
+    width: 108.45px;
+    height: 126.95px;
+    left: 110px;
+    top: -65px;
+    z-index: 1;
+
+    transform: rotate(-60.45deg);
+  }
+
+  .needarrow {
+    position: relative;
+    width: 117.85px;
+    height: 111.45px;
+    left: 300px;
+
+    transform: rotate(-21.96deg);
+  }
+
+  .white-board {
+    padding: 9px 34px 10px 31px;
+    min-width: 337px;
+    height: 113px;
+    position: relative;
+    top: -16px;
+  }
+
+  .new-tabs-paragraph {
+    font-size: 13px;
+    width: 339px;
+    height: 48px;
+    margin-top: -30px;
+  }
+
+  .tab {
+    width: 265px;
+    height: 78px;
+    background: url("../assets/newtabs/tabmobile.png");
+  }
+}
+
+/* new tab mobile */

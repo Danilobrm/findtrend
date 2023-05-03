@@ -1,0 +1,22 @@
+@import url("../assets/WEB/css/clash-display.css");
+@import url("./header.css");
+@import url("./hero.css");
+@import url("./tabs.css");
+@import url("./about.css");
+@import url("./partners.css");
+@import url("./platform.css");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#container {
+  overflow: hidden;
+  position: absolute;
+  width: 100%;
+  height: fit-content;
+  background-color: #000000;
+}
+

@@ -1,0 +1,29 @@
+@import url("../assets/WEB/css/clash-display.css");
+
+.about {
+  height: 691px;
+  width: 100%;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about h1 {
+  font-family: "ClashDisplay-Medium";
+  font-size: 64px;
+  width: 1158px;
+  color: #2e2e2e;
+}
+
+.about h1 span {
+  opacity: 0.4;
+}
+
+@media (max-width: 768px) {
+  .about h1 {
+    max-width: 316px;
+    width: 100%;
+    font-size: 36px;
+  }
+}

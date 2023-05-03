@@ -1,0 +1,193 @@
+@import url("../assets/WEB/css/clash-display.css");
+/* hero start */
+
+.hero {
+  margin: 0 auto;
+  width: fit-content;
+  margin-top: 111px;
+}
+
+.hero-title-first,
+.hero-title-second {
+  width: 739px;
+
+  font-family: "ClashDisplay-Bold";
+  font-size: 72px;
+  line-height: 89px;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.hero-paragraph {
+  width: 739px;
+  height: 50px;
+
+  font-family: "ClashDisplay-Medium";
+  font-size: 20px;
+  line-height: 25px;
+  text-align: center;
+
+  color: #7b7b7b;
+}
+
+.hero-button {
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 106px;
+}
+
+.hero-button button {
+  position: absolute;
+  width: 173px;
+  height: 56px;
+  background: #a8ff35;
+  border-radius: 35px;
+  border: none;
+  cursor: pointer;
+  margin-top: 46px;
+
+  font-family: "ClashDisplay-Semibold";
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+
+  color: #121212;
+}
+
+.hero-start-arrow {
+  width: 130.68px;
+  height: 114.85px;
+  background: url("../assets/heroarrow.png");
+  position: relative;
+  left: 210px;
+  top: 28px;
+}
+
+
+/* frames */
+.frames {
+    width: 956px;
+    height: 157px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    position: relative;
+    display: flex;
+    margin-bottom: 101.6px;
+  }
+  
+  .twitter img {
+    z-index: 3;
+    position: absolute;
+    width: 343.31px;
+    height: 101.52px;
+    left: 0;
+    top: 0;
+  }
+  
+  .pinterest img {
+    z-index: 2;
+    position: absolute;
+    width: 343.35px;
+    height: 101.1px;
+    left: 182px;
+    top: 56.3px;
+  }
+  
+  .facebook img {
+    z-index: 1;
+    position: absolute;
+    width: 345.75px;
+    height: 119.3px;
+    left: 375px;
+    top: -2px;
+  }
+  
+  .dribbble img {
+    z-index: 0;
+    position: absolute;
+    width: 343.17px;
+    height: 100.02px;
+    left: 613.01px;
+    top: 54.75px;
+  }
+  /* frames */
+/* hero end */
+
+/* hero mobile */
+@media (max-width: 768px) {
+  .hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero-title-first,
+  .hero-title-second {
+    max-width: 340px;
+    text-align: center;
+    min-width: 90.6%;
+    font-size: 37px;
+    line-height: 45.51px;
+  }
+
+  .hero-paragraph {
+    width: 340px;
+    height: 51px;
+    margin-top: 21px;
+
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+  }
+
+  .hero-button {
+    margin-top: 42px;
+  }
+
+  .hero-start-arrow {
+    display: none;
+  }
+
+  .frames {
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+  }
+
+  .frame img {
+    position: relative;
+    flex-direction: column;
+    top: 0;
+    left: 0;
+  }
+
+  .facebook {
+    order: 0;
+  }
+
+  .facebook img {
+    top: -25px;
+  }
+
+  .twitter {
+    order: 0;
+  }
+
+  .pinterest {
+    order: 2;
+  }
+
+  .pinterest img {
+    top: -79px;
+    transform: rotate(-9.78deg);
+  }
+
+  .dribbble img {
+    top: -63px;
+    z-index: 2;
+  }
+}
