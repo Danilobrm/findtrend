@@ -140,7 +140,7 @@ header {
 @media (max-width: 1000px) {
   header {
     width: 100%;
-    padding: 20px;
+    padding: 30px 20px;
     margin: 0 auto;
     position: fixed;
     justify-content: space-between;
