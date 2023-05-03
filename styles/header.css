@@ -146,7 +146,7 @@ header {
   .logo {
     width: fit-content;
   }
-  nav {
+  .nav-header {
     display: none;
   }
 

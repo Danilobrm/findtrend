@@ -2,7 +2,7 @@
 
 .all-platform {
   width: 100%;
-  height: 2291px;
+  height: fit-content;
   background-color: #ffffff;
 }
 
@@ -37,10 +37,6 @@
 }
 
 @media (max-width: 1200px) {
-  .all-platform {
-    height: 1778px;
-  }
-  
   .platforms-icon ul {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -48,6 +44,10 @@
 }
 
 @media (max-width: 600px) {
+  .all-platform {
+    height: 1778px;
+  }
+
   .all-platform h1 {
     font-size: 35px;
   }

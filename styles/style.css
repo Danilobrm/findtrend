@@ -5,11 +5,15 @@
 @import url("./about.css");
 @import url("./partners.css");
 @import url("./platform.css");
+@import url("./sell.css");
+@import url("./join.css");
+@import url("./footer.css");
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 #container {

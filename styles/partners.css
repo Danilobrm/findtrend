@@ -27,11 +27,18 @@
 }
 
 .partners ul li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 275px;
   height: 120px;
   background: #eaeaea;
   border-radius: 8px;
   list-style: none;
+}
+
+.partners ul li img {
+  width: 190px;
 }
 
 @media (max-width: 1000px) {
@@ -67,5 +74,10 @@
   .partners ul li {
     width: 160px;
     height: 68px;
+  }
+
+  .partners ul li img {
+    width: 121px;
+    height: 26px;
   }
 }
