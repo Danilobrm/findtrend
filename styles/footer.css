@@ -1,0 +1,55 @@
+footer {
+  background-color: #ffffff;
+  height: 88px;
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+  padding: 0 142.75px;
+}
+
+.footer-container {
+  display: flex;
+  width: fit-content;
+  margin: 0 auto;
+  gap: 376px;
+  align-items: center;
+}
+
+.logo-footer {
+  display: flex;
+  align-self: center;
+  align-items: center;
+  gap: 18px;
+}
+
+.logo-title-footer {
+  font-family: "ClashDisplay-Bold";
+  color: #202020;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.nav-bar-footer {
+  display: flex;
+  gap: 57px;
+}
+
+.nav-bar-footer .nav-item a {
+  color: #1b1b1b;
+}
+
+@media (max-width: 768px) {
+  footer {
+    height: 548px;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    gap: 63px;
+  }
+
+  .nav-bar-footer {
+    flex-direction: column;
+    text-align: center;
+  }
+}

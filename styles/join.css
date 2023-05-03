@@ -1,0 +1,46 @@
+.join-us {
+  height: 378px;
+  background-color: #beff67;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 37px;
+}
+
+.join-us h1 {
+    font-size: 52px;
+    font-family: "ClashDisplay-Bold";
+    width: 554px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 77.5px;
+}
+
+.join-us h1 span {
+    opacity: 0.4;
+}
+
+.join-us button {
+    width: 171px;
+    height: 58px;
+    border: none;
+    background-color: #181818;
+    color: #ffffff;
+    font-family: "ClashDisplay-Medium";
+    border-radius: 35px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+@media (max-width: 768px) {
+    .join-us {
+        height: 378px;
+    }
+
+    .join-us h1 {
+        width: 343px;
+        text-align: center;
+        font-size: 33px;
+    }
+  }
+  
